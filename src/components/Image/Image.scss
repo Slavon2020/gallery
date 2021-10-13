@@ -1,0 +1,33 @@
+@import '../App/variables.scss';
+
+.img-wrap {
+    width: 23%;
+    margin-bottom: 15px;
+    height: 200px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;  
+}
+
+@media(max-width: $lg) {
+    .img-wrap {
+        width: 31.5%;
+        height: 220px;
+    }
+}
+
+@media(max-width: $md) {
+    .img-wrap {
+        width: 48%;
+        height: 240px;
+    }
+}
+
+@media(max-width: $sm) {
+    .img-wrap {
+        width: 80%;
+        height: 220px;
+    }
+}

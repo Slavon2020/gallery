@@ -1,0 +1,15 @@
+@import '../App/variables.scss';
+
+.images-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 25px 20px;
+    flex-flow: row wrap;
+        
+}
+
+@media (max-width: $sm) {
+    .images-list {
+        justify-content: center;
+    }
+}
